@@ -1,0 +1,16 @@
+version: '{build}'
+image: Visual Studio 2017
+skip_non_tags: true
+environment:
+  build_user: JeremyTCD
+  build_user_email: jeremytanchongdao@gmail.com
+  nuget_key:
+    secure: FOSfqqdiN4fPSFkcnR0mv5js+cq/MF+UGsoZV9FeKlJz3I7TDBQ0NxQSoAVcL2Pt
+  git_key:
+    secure: PxyfPAKDmw/E1ZbhsvQn53bu62I2wNJcegHokyaORVtq3CZuTpWGoOTpNn0U3JJY
+build: off
+test_script: 
+- ps: . '.\tools\Test.ps1'
+deploy_script:
+- ps: |
+    . '.\tools\Deploy.ps1'
