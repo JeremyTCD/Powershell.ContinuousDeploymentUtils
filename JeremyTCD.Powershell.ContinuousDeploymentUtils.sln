@@ -18,6 +18,7 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{3F79E941-D9C8-41AE-96E5-8216F1067F52}"
 	ProjectSection(SolutionItems) = preProject
 		tests\ContinuousDeploymentUtils.tests.ps1 = tests\ContinuousDeploymentUtils.tests.ps1
+		tests\Deploy.tests.ps1 = tests\Deploy.tests.ps1
 	EndProjectSection
 	ProjectSection(FolderStartupServices) = postProject
 		{82A7F48D-3B50-4B1E-B82E-3ADA8210C358} = {82A7F48D-3B50-4B1E-B82E-3ADA8210C358}
